@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.382 s <<< FAILURE! - in TestSuite
+com.beesion.qa.LoginTests.loginTest  Time elapsed: 5.33 s  <<< FAILURE!
+java.lang.AssertionError: Actual Url is not the same as expected Url. expected [https://www.xoom.com/myaccount] but found [https://www.xoom.com/sign-in-xoom]
+	at com.beesion.qa.LoginTests.loginTest(LoginTests.java:60)
+

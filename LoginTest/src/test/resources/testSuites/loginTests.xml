@@ -1,0 +1,12 @@
+<suite name = "Login Tests">
+    <test name = "Login Tests" preserve-order="true">
+        <classes>
+            <class name = "com.beesion.qa.LoginTests">
+                <methods>
+                    <include name="failedLoginTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

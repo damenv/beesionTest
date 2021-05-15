@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.382" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/test-classes:/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/classes:/Users/dameneses/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/dameneses/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/dameneses/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/dameneses/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/dameneses/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dameneses/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/dameneses/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/dameneses/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/dameneses/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/dameneses/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/dameneses/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/dameneses/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/dameneses/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value="America/Guatemala"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/surefire/surefirebooter5328081131655293375.jar /Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/surefire 2021-05-14T20-07-51_762-jvmRun1 surefire7212028193053756926tmp surefire_015400462319648392086tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/test-classes:/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/classes:/Users/dameneses/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/dameneses/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/dameneses/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/dameneses/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/dameneses/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/dameneses/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dameneses/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/dameneses/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/dameneses/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/dameneses/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/dameneses/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/dameneses/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/dameneses/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/dameneses/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dameneses"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="driver" value="chrome"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="seleniumDriver" value="chrome"/>
+    <property name="surefire.real.class.path" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/target/surefire/surefirebooter5328081131655293375.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.4+11-LTS"/>
+    <property name="user.name" value="dameneses"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.33+15-CA"/>
+    <property name="operativeSystem" value="macOS"/>
+    <property name="localRepository" value="/Users/dameneses/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xs/2qd0c_ss1t33rlvktgg48fyw3kg41v/T/"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="/Users/dameneses/Documents/GitHub/beesionTest/LoginTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/dameneses/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+11-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="failedLoginTest" classname="com.beesion.qa.LoginTests" time="5.341">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [/Users/dameneses/Documents/GitHub/beesionTest/LoginTest/src/test/resources/testSuites/loginTests.xml] otherwise TestNG may fail or not work as expected.
+Testing failed login to xoom's website
+Retrieving web elements: username, password and login button
+Typing username
+Typing password
+Logging in
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46119
+Only local connections are allowed.
+Please see h[t1t62p1s0:4/4/4c7h4r.o3m6e2d]r[iWvAeRr.NchIrNoGm]i:u mF.roormgS/oscekAcdudrri ftyai-cloends iodne rnaettimoanssk 
+f[o1r6 2s1u0g4g4e4s7t4i.o3n6s2 ]o[nW AkReNeIpNiGn]g:  CFhrroommSeoDcrkiAvdedrr  sfaailefe.
+dC hon netmask
+romeDriver was started successfully.
+May 14, 2021 8:07:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.beesion.qa.LoginTests" time="5.33">
+    <failure message="Actual Url is not the same as expected Url. expected [https://www.xoom.com/myaccount] but found [https://www.xoom.com/sign-in-xoom]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Actual Url is not the same as expected Url. expected [https://www.xoom.com/myaccount] but found [https://www.xoom.com/sign-in-xoom]
+	at com.beesion.qa.LoginTests.loginTest(LoginTests.java:60)
+]]></failure>
+    <system-out><![CDATA[Starting Cleanup
+Closing browser
+Testing login to xoom's website
+Retrieving web elements: username, password and login button
+Typing username
+Typing password
+Logging in
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37887
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621044489.635][WARNING]: FromSockAddr failed on netmask
+[1621044489.635][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+May 14, 2021 8:08:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

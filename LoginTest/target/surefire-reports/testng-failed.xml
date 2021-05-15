@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Tests]" verbose="0">
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.beesion.qa.LoginTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- com.beesion.qa.LoginTests -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Login Tests] -->
